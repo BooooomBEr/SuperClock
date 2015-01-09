@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	>
+	<TextView  
+	android:id="@+id/TextView01"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text=" "
+    	/>
+  	<Button
+    	android:id="@+id/Button01"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="添加闹钟"
+  	/>    
+
+
+  	<TextView  
+	android:id="@+id/TextView02"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="闹钟1"
+    	/>
+  	<LinearLayout android:orientation="horizontal"
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content">
+	  	<Button
+	    	android:id="@+id/Button_alarm1"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="0.75"
+	    	android:text=" "
+	  	/>
+	  	<Button
+	    	android:id="@+id/Button_del1"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="0.25"
+	    	android:text=""
+	  	/>
+	</LinearLayout>>
+	<TextView  
+	android:id="@+id/TextView03"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="闹钟2"
+    	/>
+  	<LinearLayout android:orientation="horizontal"
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content">
+	  	<Button
+	    	android:id="@+id/Button_alarm2"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="0.75"
+	    	android:text=" "
+	  	/>
+	  	<Button
+	    	android:id="@+id/Button_del2"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="0.25"
+	    	android:text=""
+	  	/>
+	</LinearLayout>>
+	<TextView  
+	android:id="@+id/TextView04"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="闹钟3"
+    	/>
+  	<LinearLayout android:orientation="horizontal"
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content">
+	  	<Button
+	    	android:id="@+id/Button_alarm3"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="0.75"
+	    	android:text=" "
+	  	/>
+	  	<Button
+	    	android:id="@+id/Button_del3"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="0.25"
+	    	android:text=""
+	  	/>
+	</LinearLayout>>
+</LinearLayout>
